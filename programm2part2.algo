@@ -1,9 +1,10 @@
 ALGORITHM Dot_product
 VAR
+// this is declartion of variables 
 matrix_v1 : ARRAY_OF INTEGER[3][1]
 matrix_v2 :ARRAY_OF INTEGER[3][1]
 ps,i,n,k=INTEGER
-
+// this is the function
 Function dot_product(v1, v2)
     ps :=0
     For i from 1 to Length(v1) Do

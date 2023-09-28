@@ -1,9 +1,11 @@
 ALGORITHM algorithm_sum
 VAR
+// this the decartion of variablec
     t1,t2,t3 : ARRAY_OF type INTEGER[50];
     i,j : INTEGER ;
     sum : INTEGER ;
     X : INTEGER ;
+    // this is the body part
 BEGIN
     for i from 0 to length -1(t1) do
     for j from 0 to length -1(t2) do 
